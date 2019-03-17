@@ -18,7 +18,7 @@ console.log("hello1");
     port: 5432,
     username:"postgres",
     password: "12345",
-    database: "test",
+    database: "crudapi",
     entities: [
         Photo
     ],

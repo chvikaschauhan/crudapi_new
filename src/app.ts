@@ -3,7 +3,7 @@ import * as statusController from "./controllers/status";
 
 // Our Express APP config
 const app = express();
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 5000);
 
 // API Endpoints
 app.get('/', (req, res) => {
