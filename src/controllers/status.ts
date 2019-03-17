@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import {Photo} from "../entity/photo" ;
-import con from "E:/learning/express/crudapi/index";
+import con from "../../index";
 
 import insert from "../insert";
 import "reflect-metadata";
